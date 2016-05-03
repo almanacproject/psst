@@ -61,5 +61,5 @@ def main():
 
     print(json.dumps(pws))
 
-
-main()
+if __name__ == "__main__":
+    main()
