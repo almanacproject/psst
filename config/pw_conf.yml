@@ -1,5 +1,5 @@
 psst:
-    services:
+    passwords:
       - db
       - user1
       - user2

@@ -60,7 +60,7 @@ def main():
         print(str(e), file=sys.stderr)
         sys.exit(1)
 
-    pws = psst.create_pws(config["services"], config["length"], config["choices"])
+    pws = psst.create_pws(config["passwords"], config["length"], config["choices"])
 
     print(json.dumps(pws))
 
