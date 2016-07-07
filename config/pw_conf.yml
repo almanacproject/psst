@@ -1,0 +1,6 @@
+psst:
+    services:
+      - db
+      - user1
+      - user2
+    length: 20
