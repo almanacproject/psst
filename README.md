@@ -2,26 +2,22 @@ Psst is a simple password generator for test deployments.
 
 #Usage
 
-Psst can generate mutiple passwords for different use cases and returns them in a JSON formated string.
+Psst can generate multiple passwords for different use cases and returns them in a JSON formatted string.
 
 A configuration file for Psst looks like this
 
-    {
-        "psst":{
-            "services": [
-                "db_root",
-                "user1",
-                "user2"
-            ],
-            "length": 20
-        }
-    }
+        psst:
+            services: 
+                - "db_root"
+                - "user1"
+                - "user2"
+            length: 20
 
 Inside the `psst` field is the configuration for Psst.
 The service field is a list of names for which a password is needed.
 In this example we need a password for the database root and a password for two users.
 
-The follwoing command executes Psst
+The following command executes Psst
 
     psst <configuration file>
 
