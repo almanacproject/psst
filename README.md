@@ -40,8 +40,8 @@ The output of Psst can be used in shell scripts with the help of `jq`.
 
 #Configuration
 
-Psst has the follwoing values in its configuration file
+Psst has the following options in its configuration file
 
-1. services a list of names
-2. length a positive number (default: 20)
-3. choises a string with characters that are used to create the password (default: `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@`)
+1. passwords a list of names for the passwords to be generated
+2. length a positive number that is the lenght of generated the passwords (default: 20)
+3. choices a string with characters that are used to create the password (default: `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@`)
